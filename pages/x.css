@@ -1,0 +1,119 @@
+.cntt{
+    height: 600px;
+    width: 100dvw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #CC2B52;
+}
+.c1{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gainsboro;
+}
+.imgg{
+    height: 200px;
+    width: 100%;
+    background-image: url(bsn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+    background-position: center;
+}
+.imgg:hover{
+    scale: 1.07;
+}
+.imgg2{
+    height: 200px;
+    width: 100%;
+    background-image: url(qwdhg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 2s;
+}
+.imgg2:hover{
+    scale: 1.07;
+}
+.anm {
+    background-image: url(WhatsApp_Image_2024-10-27_at_2.55.21_AM-removebg-preview.png);
+    height: 50px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    /* Animation settings */
+    animation-name: line;
+    animation-timing-function: ease-in-out; /* Smoother transition */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /* Moves back and forth */
+}
+
+@keyframes line {
+    from {
+        top: 100px;
+        height: 150px;
+        width: 150px;
+        transform: rotate(0deg);
+    }
+    to {
+        top: 0px;
+        height: 200px;
+        width: 200px;
+        transform: rotate(30deg);
+    }
+}
+
+.anm2 {
+    background-image: url(WhatsApp_Image_2024-10-27_at_2.55.21_AM-removebg-preview.png);
+    height: 50px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50rem;
+    z-index: -1;
+    /* Animation settings */
+    animation-name: line2;
+    animation-timing-function: ease-in-out; /* Smoother transition */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /* Moves back and forth */
+}
+
+@keyframes line {
+    from {
+        top: 100px;
+        height: 150px;
+        width: 150px;
+        transform: rotate(0deg);
+    }
+    to {
+        top: 0px;
+        height: 200px;
+        width: 200px;
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes line2 {
+    from {
+        top: 10px;
+        height: 150px;
+        width: 150px;
+        transform: rotate(0deg);
+    }
+    to {
+        top: 100px;
+        height: 200px;
+        width: 200px;
+        transform: rotate(-30deg);
+    }
+}
